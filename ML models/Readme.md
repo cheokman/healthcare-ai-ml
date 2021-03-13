@@ -10,10 +10,10 @@ There are 4 ML models:
 ## Survival Probability that vary with time [Timeline Approach]
 
 - This model takes time t [in months] as an input and outputs a probability of survival at time t of patient with Stage III or Stage IV Lymphom Cancer.
-- ![Lymphoma Cancer Graph](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Lymphoma.png)
+![Lymphoma Cancer Graph](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Lymphoma.png)
 - This model is trained on Lymphoma cancer patients dataset, It is trained using `Kaplan Meier Estimate` 
 ![Kaplan-Meier Estimate](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/kaplan-meier-formula.png)
-where t_i are the events observed in the dataset and d_i is the number of deaths at time t_i and n_i is the number of people who we know have survived up to time t_i.
+- where t_i are the events observed in the dataset and d_i is the number of deaths at time t_i and n_i is the number of people who we know have survived up to time t_i.
 - This can be really benefitial to Insurance firms and patients as Insurance firms can recommend better insurance Policies to the patients.
  
 ## Heart failure risk Prediction[Linear & Tree based]
@@ -30,7 +30,7 @@ Cardiovascular disease or heart disease describes a range of conditions that aff
 - `risk_ties as permissible pairs where the risk scores were equal (i.e. our model predicted 1 for both patients or 0 for both patients)`, the C-Index is equal to:
 >
 ![c-index formula](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/cindex.png)
-- It also helps Doctors to point out certain factors that heavily impact the patient's condition.
+- It also helps Doctors to point out certain factors that heavily impact the patient's condition. eg: In below figure, we can see that Age, Poverty-index and Pulse pressure negatively impacts the patients.
 ![prediction explainer](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure.png)
 ![2](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure(1).png)
 - This can be helpful for doctors to prioritize a particular patient's treatment if his/her risk score is higher than other patients.
