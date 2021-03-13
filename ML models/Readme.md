@@ -11,7 +11,7 @@ There are 4 ML models:
 
 - This model takes time t [in months] as an input and outputs a probability of survival at time t of patient with Stage III or Stage IV Lymphom Cancer.
 - This model is trained on Lymphoma cancer patients dataset, It is trained using `Kaplan Meier Estimate` 
-![Kaplan Meier Estimate](https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fsubscription.packtpub.com%2Fbook%2Fdata%2F9781839217074%2F7%2Fch07lvl1sec78%2Fusing-kaplan-meier-survival-curves&psig=AOvVaw1MmhEnW2nCqsyI2qDGqgu0&ust=1615761213046000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLiQutupru8CFQAAAAAdAAAAABAI)
+<img width=“964” alt=“Kaplan Meier Estimate” src=“https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/km.png”>
 where t_i are the events observed in the dataset and d_i is the number of deaths at time t_i and n_i is the number of people who we know have survived up to time t_i.
 - This can be really benefitial to Insurance firms and patients as Insurance firms can recommend better insurance Policies to the patients.
  
