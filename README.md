@@ -54,6 +54,8 @@ Let us define the terms what we will going to use in the further documentation.
 
 ## **How our Machine Learning Alogrithm works?!**
 
+![image](https://user-images.githubusercontent.com/47498552/111023180-9255e780-83fd-11eb-85d3-8e2867ed164e.png)
+
 We have *3* different alogorithms:
 
 1. Prediction of the future diseases based on EHR.
@@ -68,3 +70,37 @@ Rather than using the traditional `matrix feature table` to train algorithms we'
 - By sequencing there will be less overlapping and ambigous results in the data set
 - Which finlly leads to a more efficient algorithm.
     
+![timeine](https://user-images.githubusercontent.com/47498552/111022472-f7f3a500-83f8-11eb-9f5c-6a26fe439347.PNG)
+
+---
+
+## **What are the toolkits we'll provide?!**
+
+1. ***[Website for the CareProviders](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+
+    - A Dashboard which outputs the Patient's results given by our API.
+    - This website will be used by the hospitals and the clinics to operate CRUD operations of the patients data generated there.
+    - Shows the past history of patient's diseases and the treatment done.
+    - It will also give notify from the wrong treatment that can be given due to overlap of the previous diagnoses.
+
+Basic Outllook:
+
+![careprovidergif](https://user-images.githubusercontent.com/47498552/111022893-c9c39480-83fb-11eb-919b-6e6e1be96f92.gif)
+
+2. ***[Website for the Intermidiaries](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+
+    - This will be useful for the Government / Insurance companies.
+    - They can manage the money/resources from this website.
+    - They can also provide a better insurance policy reccomendations based on Individual's PHR.
+    - THere will be also a Internet banking and Blockchain implementation using [Matic](https://matic.network/) for the payment of patients bill.
+
+Basic Outllook:
+
+![insurancegif](https://user-images.githubusercontent.com/47498552/111023034-ab11cd80-83fc-11eb-9874-f2bd96a2a9ac.gif)
+
+
+
+3.  ***[Implemented API with proper documentations](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+
+4.  ***[ML Algorithms source code](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+
