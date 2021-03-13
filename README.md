@@ -55,14 +55,16 @@ Let us define the terms what we will going to use in the further documentation.
 ## **How our Machine Learning Alogrithm works?!**
 
 We have *3* different alogorithms:
-    1. Prediction of the future diseases based on EHR.
-    2. Recomendation system for the intermidiaries to give precise 'insurance policy' based on PHR.
-    3. Prediction of future 'Survival Probability' for 'Lymphoma Cancer' patients.
+
+1. Prediction of the future diseases based on EHR.
+2. Recomendation system for the intermidiaries to give precise 'insurance policy' based on PHR.
+3. Prediction of future 'Survival Probability' for 'Lymphoma Cancer' patients.
 
 Rather than using the traditional `matrix feature table` to train algorithms we've used a `Timeline` based approach.
 
-###TimeLine Approach
-    Rather than training a model based on the directly a tabular format what it does is first arrange the data in a sequence.
-    By sequencing there will be less overlapping and ambigous results in the data set
-    Which finlly leads to a more efficient algorithm.
+### TimeLine Approach
+
+- Rather than training a model based on the directly a tabular format what it does is first arrange the data in a sequence.
+- By sequencing there will be less overlapping and ambigous results in the data set
+- Which finlly leads to a more efficient algorithm.
     
