@@ -10,8 +10,9 @@ There are 4 ML models:
 ## Survival Probability that vary with time [Timeline Approach]
 
 - This model takes time t [in months] as an input and outputs a probability of survival at time t of patient with Stage III or Stage IV Lymphom Cancer.
+- ![Lymphoma Cancer Graph](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Lymphoma.png)
 - This model is trained on Lymphoma cancer patients dataset, It is trained using `Kaplan Meier Estimate` 
-<img width=“964” alt=“Kaplan Meier Estimate” src=“https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/km.png”>
+![Kaplan-Meier Estimate](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/kaplan-meier-formula.png)
 where t_i are the events observed in the dataset and d_i is the number of deaths at time t_i and n_i is the number of people who we know have survived up to time t_i.
 - This can be really benefitial to Insurance firms and patients as Insurance firms can recommend better insurance Policies to the patients.
  
@@ -28,10 +29,12 @@ Cardiovascular disease or heart disease describes a range of conditions that aff
 - `concordant pairs as permissible pairs where the patient that died had a higher risk score (i.e. our model predicted 1 for the patient that died and 0 for the one that lived)`
 - `risk_ties as permissible pairs where the risk scores were equal (i.e. our model predicted 1 for both patients or 0 for both patients)`, the C-Index is equal to:
 >
-> $$\text{C-Index} = \frac{\#\text{concordant pairs} + 0.5\times \#\text{ties}}{\#\text{permissible pairs}}$$
+![c-index formula](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/cindex.png)
+- It also helps Doctors to point out certain factors that heavily impact the patient's condition.
+![prediction explainer](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure.png)
+![2](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure(1).png)
 - This can be helpful for doctors to prioritize a particular patient's treatment if his/her risk score is higher than other patients.
   
-
 
 
 ## Disease Predictor
