@@ -9,7 +9,8 @@ There are 4 ML models:
 
 ## Survival Probability that vary with time [Timeline Approach]
 
-- This model takes time t [in months] as an input and outputs a probability of survival at time t of patient with Stage III or Stage IV Lymphom Cancer.
+- This model takes time t[in months] as an input and outputs a probability of survival at time t of patient with Stage III or Stage IV Lymphoma Cancer.
+
 ![Lymphoma Cancer Graph](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Lymphoma.png)
 - This model is trained on Lymphoma cancer patients dataset, It is trained using `Kaplan Meier Estimate` 
 ![Kaplan-Meier Estimate](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/kaplan-meier-formula.png)
@@ -30,9 +31,10 @@ Cardiovascular disease or heart disease describes a range of conditions that aff
 - `risk_ties as permissible pairs where the risk scores were equal (i.e. our model predicted 1 for both patients or 0 for both patients)`, the C-Index is equal to:
 >
 ![c-index formula](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/cindex.png)
-- It also helps Doctors to point out certain factors that heavily impact the patient's condition. eg: In below figure, we can see that Age, Poverty-index and Pulse pressure negatively impacts the patients.
+- It also helps Doctors to point out certain factors that heavily impact the patient's condition. eg: In below figure, we can see that Age, Poverty-index and Pulse pressure have negative impact on patient's health, which means these factors are primaraly responsible for high risk scores.
 ![prediction explainer](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure.png)
 ![2](https://github.com/Dhaiwat10/healthcare-ai-ml/blob/main/ML%20models/Images/Figure(1).png)
+- With the help of this model, Doctors can sort patients based on their risk-scores/risk-probabilities.
 - This can be helpful for doctors to prioritize a particular patient's treatment if his/her risk score is higher than other patients.
   
 
