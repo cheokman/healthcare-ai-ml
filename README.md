@@ -76,7 +76,7 @@ Rather than using the traditional `matrix feature table` to train algorithms we'
 
 ## **What are the toolkits we'll provide?!**
 
-1. ***[Website for the CareProviders](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+1. ***[Website for the CareProviders](https://healthcare-ai-ml-careprovider-o7hqyb8jm-dhaiwat10.vercel.app/)***.
 
     - A Dashboard which outputs the Patient's results given by our API.
     - This website will be used by the hospitals and the clinics to operate CRUD operations of the patients data generated there.
