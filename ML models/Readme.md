@@ -52,8 +52,6 @@ Cardiovascular disease or heart disease describes a range of conditions that aff
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
-
 - [Keras](https://keras.io/) - To build Artificial neural network
 - [lifelines](https://lifelines.readthedocs.io/en/latest/) - Python library for Medical & Survival data analysis
 - [shap](https://shap.readthedocs.io/en/latest/index.html) - python library to visualize how machine learning algorithm made its prediction
