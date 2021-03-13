@@ -12,7 +12,15 @@ const OverviewPage = () => {
         <div className='row-span-2 xm:row-span-1 xm:col-span-2 h-full'>
           <TotalOccAndPatient />
         </div>
-        
+        <div className='rounded-xl bg-blue text-white'>
+          <NewAndAbnormalSymptom />
+        </div>
+      </div>
+      <div className='hidden md:flex mt-16'>
+        <AcquitionAndAgeGroups />
+      </div>
+      <div className='mt-20 mb-5'>
+        <BasicTable />
       </div>
   </div>
 }

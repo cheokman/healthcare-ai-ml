@@ -35,10 +35,10 @@ const TotalOccAndPatient = () => {
   return (
     <div className='w-full h-full grid grid-rows-2 xm:grid-rows-1 xm:grid-cols-2 gap-2'>
       <div className='bg-white rounded-l-xl'>
-        <TotalOccAndPatientComp  growthOrLoss='loss' growthOrLossData = '5' dataInformation={PatientOccupancyData} />
+        <TotalOccAndPatientComp heading='Total Occupancy' subHeading='67%' growthOrLoss='loss' growthOrLossData = '5' dataInformation={PatientOccupancyData} />
       </div>
       <div className='bg-white rounded-r-xl'>
-        <TotalOccAndPatientComp growthOrLoss='growth' growthOrLossData = '14' dataInformation={PatientDiseasesData} />
+        <TotalOccAndPatientComp heading='Total Patients' subHeading='55,291' growthOrLoss='growth' growthOrLossData = '14' dataInformation={PatientDiseasesData} />
       </div>
     </div>
   );

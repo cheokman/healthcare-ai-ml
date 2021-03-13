@@ -48,8 +48,8 @@ export default function BasicTable() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.name}>
+          {rows.map((row, index) => (
+            <TableRow key={index}>
               <TableCell align="left">{row.serialNo}</TableCell>
               <TableCell align="center" >
                 {row.patientName}
