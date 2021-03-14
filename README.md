@@ -76,7 +76,7 @@ Rather than using the traditional `matrix feature table` to train algorithms we'
 
 ## **What are the toolkits we'll provide?!**
 
-1.  ***[ML Algorithms source code](https://github.com/Dhaiwat10/healthcare-ai-ml/tree/main/ML%20models)***.
+1.  ***[ML Algorithms source code](https://github.com/Dhaiwat10/healthcare-ai-ml/tree/main/api)***.
 
 There are 4 ML models:
 
@@ -158,10 +158,10 @@ Basic Outllook:
 ![insurancegif](https://user-images.githubusercontent.com/47498552/111023034-ab11cd80-83fc-11eb-9874-f2bd96a2a9ac.gif)
 
 
-4.  ***[Implemented API with proper documentations](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+4.  ***[Implemented API with proper documentations](https://github.com/Dhaiwat10/healthcare-ai-ml/tree/main/api)***.
     
     - The API will interact with our ML models and our frontends.
-    - The API will use Tensorflow.js to use the trained ML models to make predictions for different kinds of requests.
+    - The API will use Tensorflow.js to use the train ML models to make predictions for different kinds of requests.
     - For the API, we are using Node, PostgreSQL and TypeScript.
 
 
