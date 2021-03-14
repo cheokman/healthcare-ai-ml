@@ -76,7 +76,7 @@ Rather than using the traditional `matrix feature table` to train algorithms we'
 
 ## **What are the toolkits we'll provide?!**
 
-1.  ***[ML Algorithms source code](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
+1.  ***[ML Algorithms source code](https://github.com/Dhaiwat10/healthcare-ai-ml/tree/main/ML%20models)***.
 
 There are 4 ML models:
 
