@@ -161,7 +161,7 @@ Basic Outllook:
 4.  ***[Implemented API with proper documentations](https://healthcare-ai-ml-careprovider-cqida9hbj-dhaiwat10.vercel.app/)***.
     
     - The API will interact with our ML models and our frontends.
-    - The API will use Tensorflow.js to use the train ML models to make predictions for different kinds of requests.
+    - The API will use Tensorflow.js to use the trained ML models to make predictions for different kinds of requests.
     - For the API, we are using Node, PostgreSQL and TypeScript.
 
 
